@@ -44,6 +44,9 @@ memeDiv.appendChild(deleteBtn);
 // Appending the Meme Div to gallery
 gallery.appendChild(memeDiv);
 
+image_url.value = "";
+uppertext.value = "";
+lowertext.value = "";
 
 function createContainer(text,classname) {
       let container = document.createElement('div');
